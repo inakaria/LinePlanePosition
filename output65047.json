@@ -1,0 +1,1 @@
+[{"in":{"Line":"(x - 4,00)\/1,00 = (y - -5,00)\/2,00 = (z - -1,00)\/-3,00","Plane":"2,00x + 4,00y + -6,00z + 15,00 = 0"}},{"out":{"Answer":"The line is perpendicular to the plane. The point of intersection is (3,68, -5,64, -0,04)"}}]

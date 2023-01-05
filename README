@@ -1,0 +1,75 @@
+--HOW IT WORKS--
+A line in space can intersect the plane, be parallel to it or belong to it. 
+
+Suppose the line and the plane are given by the equations: (x - x0)/l = (y - y0)/m = (z - z0)/n and ax + by + cz + d = 0, respectively. 
+Moreover, (x0,y0,z0) is the point through which the line passes, {l,m,n} is the direction vector of the line, {a,b,c} is the normal vector of the plane.
+
+The equation of the line in parametric form:
+(x - x0)/l = (y - y0)/m = (z - z0)/n = t
+x = lt + x0
+y = mt + y0
+z = nt + z0
+
+Substitute the resulting coordinates of any point on the line into the equation of the plane. We get:
+a(lt + x0) + b(mt + y0) + c(nt + z0) + d = 0
+
+Simplify this equation by performing algebraic operations:
+alt + ax0 + bmt + by0 + cnt + cz0 + = 0
+(al + bm + cn)t = - (ax0 + by0 + cz0 + d)
+t = - (ax0 + by0 + cz0 + d)/(al + bm + cn) - the value of the parameter responsible for the intersection
+
+There are 3 possible cases:
+- A line parallel to the plane 
+    al + bm + cn = 0
+    al + bm + cn + d =/= 0
+
+-The line belongs to the plane
+    al + bm + cn = 0
+    al + bm + cn + d = 0
+
+- The line intersects the plane
+    al + bm + cn =/= 0
+
+In the last case it may turn out that the line is perpendicular to the plane. 
+Then the direction vector of the line is perpendicular to the normal vector of this plane, 
+then the coordinates of these vectors are proportional (collinear vectors).
+    al + bm + cn =/= 0
+    a/l = b/m = c/n
+
+
+--ЯК ЦЕ ПРАЦЮЄ
+Пряма в просторі може перетинати площину, бути до неї паралельною або належати їй. 
+
+Нехай пряма і площина задані рівняннями: (x - x0)/l = (y - y0)/m = (z - z0)/n і ax + by + cz + d = 0 відповідно. 
+Причому (x0,y0,z0) - точка, через яку проходить пряма, {l,m,n} - напрямний вектор прямої, {a,b,c} - вектор нормалі площини.
+
+Запишемо рівняння прямої в параметричному вигляді:
+(x - x0)/l = (y - y0)/m = (z - z0)/n = t
+x = lt + x0
+y = mt + y0
+z = nt + z0
+
+Підставимо отримані координати довільної точки прямої в рівняння площини. Отримаємо:
+a(lt + x0) + b(mt + y0) + c(nt + z0) + d = 0
+
+Спростимо дане рівняння виконавши алгебраїчні дії:
+alt + ax0 + bmt + by0 + cnt + cz0 + = 0
+(al + bm + cn)t = - (ax0 + by0 + cz0 + d)
+t = - (ax0 + by0 + cz0 + d)/(al + bm + cn) - значення параметра, що відповідає за перетин
+
+Можливі 3 випадки:
+- Пряма паралельна площині 
+    al + bm + cn = 0
+    al + bm + cn + d =/= 0
+
+-Пряма належить площині
+    al + bm + cn = 0
+    al + bm + cn + d = 0
+
+- Пряма перетинає площину
+    al + bm + cn =/= 0
+
+В останньому випадку може виявитися, що пряма перпендикулярна площині. 
+Тоді напрямний вектор прямої перпендикулярний вектору нормалі цієї площини, то координати цих векторів пропорційні (вектори колінеарні).
+    al + bm + cn =/= 0
+    a/l = b/m = c/n
